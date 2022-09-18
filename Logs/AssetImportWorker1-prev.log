@@ -1,0 +1,508 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.16f1 (7321c9670bc2) revision 7545289'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16334 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\UnityEditor\2022.1.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Владимир/Hero Born
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59033
+Successfully changed project path to: C:/Users/Владимир/Hero Born
+C:/Users/Владимир/Hero Born
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 102.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.16f1 (7321c9670bc2)
+[Subsystems] Discovering subsystems at path F:/UnityEditor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Владимир/Hero Born/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   ATI
+    VRAM:     8170 MB
+    Driver:   31.0.12015.1008
+Initialize mono
+Mono path[0] = 'F:/UnityEditor/2022.1.16f1/Editor/Data/Managed'
+Mono path[1] = 'F:/UnityEditor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/UnityEditor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/UnityEditor/2022.1.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/UnityEditor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005817 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 96.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (910ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+				TypeCache.Initialize (182ms)
+					TypeCache.ScanAssembly (180ms)
+				ResolveRequiredComponents (1ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (73ms)
+				SetLoadedEditorAssemblies (12ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008791 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (129ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (345ms)
+				TypeCache.Initialize (340ms)
+					TypeCache.ScanAssembly (334ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (457ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3402 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (58.2 KB). Loaded Objects now: 3864.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 4.222900 ms (FindLiveObjects: 0.344600 ms CreateObjectMapping: 0.101000 ms MarkObjects: 3.676600 ms  DeleteObjects: 0.099100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008093 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.351 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1352ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1073ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+				TypeCache.Initialize (372ms)
+					TypeCache.ScanAssembly (363ms)
+				ResolveRequiredComponents (8ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (464ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.5 KB). Loaded Objects now: 3867.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.736500 ms (FindLiveObjects: 0.319500 ms CreateObjectMapping: 0.092500 ms MarkObjects: 3.284700 ms  DeleteObjects: 0.037500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (922ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+				TypeCache.Initialize (312ms)
+					TypeCache.ScanAssembly (305ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.6 KB). Loaded Objects now: 3870.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.935100 ms (FindLiveObjects: 0.308600 ms CreateObjectMapping: 0.100700 ms MarkObjects: 3.484600 ms  DeleteObjects: 0.039900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Владимир\Hero Born\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1218ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (948ms)
+			LoadAssemblies (103ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+				TypeCache.Initialize (312ms)
+					TypeCache.ScanAssembly (304ms)
+				ResolveRequiredComponents (5ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (407ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (32.6 KB). Loaded Objects now: 3873.
+Memory consumption went from 0.51 GB to 0.51 GB.
+Total: 3.951900 ms (FindLiveObjects: 0.291700 ms CreateObjectMapping: 0.093000 ms MarkObjects: 3.533000 ms  DeleteObjects: 0.032700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 615721.276416 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/barnacle_attack.png
+  artifactKey: Guid(8b2e6038aeac3bf4f9d2ed41135585f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/barnacle_attack.png using Guid(8b2e6038aeac3bf4f9d2ed41135585f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30503149a7acdb375eb56d136cfe1a3c') in 0.121181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishPink_move.png
+  artifactKey: Guid(4c621ade3073d2f46b06eb372384ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishPink_move.png using Guid(4c621ade3073d2f46b06eb372384ba3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f13a860e3c0277c4a691256061270a') in 0.016189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/bee_move.png
+  artifactKey: Guid(51fa4c66141e3cd43b4ec49272fe2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/bee_move.png using Guid(51fa4c66141e3cd43b4ec49272fe2c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd98e708111314c2f5b260495ac92c915') in 0.016019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/ladybug.png
+  artifactKey: Guid(5b652eb072169cd4bb427b3f01bbce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/ladybug.png using Guid(5b652eb072169cd4bb427b3f01bbce29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68e3a94fb3086363fc7e0ca6c1cb9ad') in 0.016382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/mouse_dead.png
+  artifactKey: Guid(965b5cf59142faf4590cb869f1ab0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/mouse_dead.png using Guid(965b5cf59142faf4590cb869f1ab0505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2379b8b2ea5cbf429167f344b9102a') in 0.014795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/saw_move.png
+  artifactKey: Guid(f0b58e3015a1903438146e0ab56ff556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/saw_move.png using Guid(f0b58e3015a1903438146e0ab56ff556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc5c773bce80841e227fd6c8398efd1') in 0.014096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/saw.png
+  artifactKey: Guid(71943e5158b6049409fdde8fceece202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/saw.png using Guid(71943e5158b6049409fdde8fceece202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b67b1399eb6b73031ef1cbc1c1f1a71') in 0.014315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeBlock_dead.png
+  artifactKey: Guid(51c0f90709206f749aa6f24f86542854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeBlock_dead.png using Guid(51c0f90709206f749aa6f24f86542854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e656b70617b1b58273cfc949ca03387b') in 0.016430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishBlue.png
+  artifactKey: Guid(0a764a6ccdd5f57459d3b3412a0c4621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishBlue.png using Guid(0a764a6ccdd5f57459d3b3412a0c4621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa886fdca450d8ca71d2981f895a01ed') in 0.018110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeGreen_move.png
+  artifactKey: Guid(a4c3cef9e7e6ae444af6f6c0a14912f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeGreen_move.png using Guid(a4c3cef9e7e6ae444af6f6c0a14912f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44486002a02153059f6a14d57b9ca9c8') in 0.022177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeBlue_hit.png
+  artifactKey: Guid(fe82e2a2d17761a498ddc747500aa711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeBlue_hit.png using Guid(fe82e2a2d17761a498ddc747500aa711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181eaea654331a5cb1c7094f018018d4') in 0.018966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/frog_move.png
+  artifactKey: Guid(de0435d10f54b7b44902769e2e693033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/frog_move.png using Guid(de0435d10f54b7b44902769e2e693033) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c121aa33e87d5a211799161a3bd4c09') in 0.016486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishGreen.png
+  artifactKey: Guid(6d36bf0e636cb5244b72c882c81b74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishGreen.png using Guid(6d36bf0e636cb5244b72c882c81b74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3eaeb35cca1849f2da310892a7fa2d') in 0.017121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeGreen_hit.png
+  artifactKey: Guid(d4d1a554d2f638e4cbc15bd48d4d8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimeGreen_hit.png using Guid(d4d1a554d2f638e4cbc15bd48d4d8d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5396a9ce0a3e51d181601659afe8d370') in 0.017896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishBlue_dead.png
+  artifactKey: Guid(e93974cc04eabea4888fc2aef57e217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fishBlue_dead.png using Guid(e93974cc04eabea4888fc2aef57e217e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce248fc13b1456de3ebc3b7da89882') in 0.018063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/ladybug_fly.png
+  artifactKey: Guid(948674643d30cdc458be44205f70aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/ladybug_fly.png using Guid(948674643d30cdc458be44205f70aa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adaa1ce80d325ba792ad71c4bf49e4a5') in 0.017460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/sawHalf.png
+  artifactKey: Guid(f0d2d8e8279f69742910d469eb52867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/sawHalf.png using Guid(f0d2d8e8279f69742910d469eb52867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f788012110f8ae55dded0bcfbe534eb2') in 0.017445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/ladybug_move.png
+  artifactKey: Guid(de37d00181b4be949afc74221bf36ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/ladybug_move.png using Guid(de37d00181b4be949afc74221bf36ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b11e87abf8a6bc8639e16d4879857ae') in 0.017681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fly_move.png
+  artifactKey: Guid(21bde6bf813c1eb4bb0b7284d194bcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/fly_move.png using Guid(21bde6bf813c1eb4bb0b7284d194bcd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da88b3a87fd1b33f89486962fd69b150') in 0.016788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/frog.png
+  artifactKey: Guid(f9aecbb79b1f14246bdbc3a6fb5d42ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/frog.png using Guid(f9aecbb79b1f14246bdbc3a6fb5d42ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614fad272471b689de8308ba1ff71beb') in 0.019025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/mouse.png
+  artifactKey: Guid(fb850a90614dc6e44a477f43feab8e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/mouse.png using Guid(fb850a90614dc6e44a477f43feab8e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1decefb6c30324e7b300fa1969671c76') in 0.016283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/bee.png
+  artifactKey: Guid(c22cbce78857ae44aaa24d0a8b2731bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/bee.png using Guid(c22cbce78857ae44aaa24d0a8b2731bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e1514be37365e491ab578801e199bf') in 0.016385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.640696 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimePurple_move.png
+  artifactKey: Guid(36257d7acdf51e64b9602ee1d8eb3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/slimePurple_move.png using Guid(36257d7acdf51e64b9602ee1d8eb3518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe7ad8ea359fc33573913afa76cd270') in 0.016422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/snail_shell.png
+  artifactKey: Guid(3df097fb81814244eb11c51d04a41fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/snail_shell.png using Guid(3df097fb81814244eb11c51d04a41fd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8cd37e4866a90df20897a08a508472') in 0.016615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/wormGreen_move.png
+  artifactKey: Guid(7f12d2c5e5d2e244996c1a093c47c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/wormGreen_move.png using Guid(7f12d2c5e5d2e244996c1a093c47c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b760a17da33e40a54ee1b92bc008e5') in 0.016806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/wormGreen.png
+  artifactKey: Guid(65a81c4043f2a494d8ac75a62f671120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/platformer-pack-redux-360-assets/PNG/Enemies/wormGreen.png using Guid(65a81c4043f2a494d8ac75a62f671120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '271fe7bdcb02792327d6de2da224ff97') in 0.017915 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
